@@ -22,5 +22,7 @@ namespace E2EStarter.Data
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
+
+        public DbSet<E2EStarter.Models.Book> Book { get; set; }
     }
 }
